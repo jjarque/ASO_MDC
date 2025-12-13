@@ -1,0 +1,9 @@
+[Unit]
+Description=Timer para backup.sh los viernes a las 3 de la tarde
+
+[Timer]
+OnCalendar= Fri 15:00:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target
